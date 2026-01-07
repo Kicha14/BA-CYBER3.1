@@ -5,7 +5,7 @@ on:
 jobs:
   Deploiement:
     runs-on: ubuntu-latest
-  steps:
+    steps:
     - name: Récupération du code
       uses: actions/checkout@v3
     - name: Déploiement vers GitHub Pages
